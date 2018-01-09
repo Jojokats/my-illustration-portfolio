@@ -120,6 +120,14 @@ h1 {
   margin: 5rem 0 3rem;
 }
 
+.thumbnail {
+  transition: all 1s;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
 /* FOOTER */
 .social-icons .fa {
   color: #000;
